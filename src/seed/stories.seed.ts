@@ -1,0 +1,126 @@
+import { StoryRecord } from '../stories/interfaces/story-record.interface';
+
+export const STORIES: readonly StoryRecord[] = [
+  {
+    id: 'ember-crown',
+    title: 'The Ember Crown',
+    genre: 'Fantasy',
+    tags: ['magic-school', 'found-family', 'epic'],
+    rating: 4.6,
+    chapters: [
+      { id: 'c1', title: 'The Entrance Exam', order: 1, content: 'Kira burns her acceptance letter by accident, which is the first sign the academy will take her anyway.' },
+      { id: 'c2', title: 'The Ash Wing', order: 2, content: 'The forbidden wing of the school is not locked. It is simply never mentioned.' },
+      { id: 'c3', title: 'A Debt in Smoke', order: 3, content: 'Kira learns that every spell she has cast for free was never actually free.' },
+      { id: 'c4', title: 'The Crown Wakes', order: 4, content: 'The crown does not choose a wearer. It chooses a household, and Kira has just become one.' },
+    ],
+  },
+  {
+    id: 'midnight-in-verona-falls',
+    title: 'Midnight in Verona Falls',
+    genre: 'Romance',
+    tags: ['slow-burn', 'small-town', 'second-chance'],
+    rating: 4.3,
+    chapters: [
+      { id: 'c1', title: 'The Diner Reopens', order: 1, content: 'Mara comes home to fix the family diner for one season. She did not plan on fixing anything else.' },
+      { id: 'c2', title: 'The Man at Table Six', order: 2, content: 'Ten years later, Daniel still orders the same thing. He just never says why.' },
+      { id: 'c3', title: 'What the Falls Remember', order: 3, content: 'Some conversations only happen at 2 a.m., by a waterfall neither of them planned to visit.' },
+    ],
+  },
+  {
+    id: 'the-last-signal',
+    title: 'The Last Signal',
+    genre: 'Sci-Fi',
+    tags: ['space', 'first-contact', 'survival'],
+    rating: 4.1,
+    chapters: [
+      { id: 'c1', title: 'Silence on Approach', order: 1, content: 'The relay station has not spoken in six years. Then it says one word.' },
+      { id: 'c2', title: 'A Language With No Verbs', order: 2, content: 'The signal is not noise. It is grammar nobody on the crew was trained to parse.' },
+      { id: 'c3', title: 'Air for Twelve Days', order: 3, content: 'Whatever answers the crew sends back will outlive the oxygen they have left.' },
+      { id: 'c4', title: 'The Answer Arrives First', order: 4, content: 'Something has been listening long before the station ever transmitted.' },
+    ],
+  },
+  {
+    id: 'whistling-hollow',
+    title: 'Whistling Hollow',
+    genre: 'Horror',
+    tags: ['haunted-house', 'small-town', 'slow-burn'],
+    rating: 3.9,
+    chapters: [
+      { id: 'c1', title: 'The House Was Cheap for a Reason', order: 1, content: 'The realtor mentions the whistling sound only after the papers are signed.' },
+      { id: 'c2', title: 'Nobody Else Hears It', order: 2, content: 'Every neighbor swears the hollow has always been silent.' },
+      { id: 'c3', title: 'What the Wind Wants', order: 3, content: 'The whistling is not wind. It has been trying to finish a sentence for eighty years.' },
+    ],
+  },
+  {
+    id: 'the-debt-collectors-daughter',
+    title: "The Debt Collector's Daughter",
+    genre: 'Thriller',
+    tags: ['heist', 'betrayal', 'found-family'],
+    rating: 4.4,
+    chapters: [
+      { id: 'c1', title: 'Inheritance', order: 1, content: 'Rosa inherits her father\'s ledger, and with it, everyone who owes him.' },
+      { id: 'c2', title: 'The Crew He Left Behind', order: 2, content: 'Four people trusted her father with their lives. None of them trust her yet.' },
+      { id: 'c3', title: 'The Vault at Pier Nine', order: 3, content: 'One night, one vault, and a debt that was never really about money.' },
+      { id: 'c4', title: 'Who Sold the Job', order: 4, content: 'Someone on the crew called this in before Rosa ever planned it.' },
+    ],
+  },
+  {
+    id: 'paper-moons',
+    title: 'Paper Moons',
+    genre: 'Young Adult',
+    tags: ['coming-of-age', 'first-love', 'slow-burn'],
+    rating: 4.0,
+    chapters: [
+      { id: 'c1', title: 'The Last First Day', order: 1, content: 'Senior year starts with a note folded into a paper moon, unsigned.' },
+      { id: 'c2', title: 'Twelve More Moons', order: 2, content: 'Someone keeps leaving them. Sam has stopped pretending not to look for the next one.' },
+    ],
+  },
+  {
+    id: 'bloodline-of-ash',
+    title: 'Bloodline of Ash',
+    genre: 'Fantasy',
+    tags: ['epic', 'betrayal', 'magic-school'],
+    rating: 4.7,
+    chapters: [
+      { id: 'c1', title: 'The Last Loyal House', order: 1, content: 'Every noble house has fallen to the ash plague except one, and Ren does not know why.' },
+      { id: 'c2', title: 'What the Masters Teach in Secret', order: 2, content: 'The academy teaches one curriculum in daylight and another after the gates close.' },
+      { id: 'c3', title: 'A Name Struck From the Record', order: 3, content: 'Ren finds their own family erased from three hundred years of history.' },
+      { id: 'c4', title: 'The Ash Was Never a Plague', order: 4, content: 'It was a harvest, and the last loyal house was always the field.' },
+    ],
+  },
+  {
+    id: 'the-understudy',
+    title: 'The Understudy',
+    genre: 'Drama',
+    tags: ['rivalry', 'coming-of-age', 'ambition'],
+    rating: 3.8,
+    chapters: [
+      { id: 'c1', title: 'Second Cast', order: 1, content: 'Priya has understudied the lead role for two seasons straight.' },
+      { id: 'c2', title: 'Opening Night, Someone Else\'s', order: 2, content: 'Twenty minutes before curtain, the lead is nowhere in the building.' },
+      { id: 'c3', title: 'The Reviews Mention Both Names', order: 3, content: 'One performance changes what the company thinks it owes her.' },
+    ],
+  },
+  {
+    id: 'static-and-stars',
+    title: 'Static and Stars',
+    genre: 'Sci-Fi',
+    tags: ['space', 'survival', 'found-family'],
+    rating: 4.2,
+    chapters: [
+      { id: 'c1', title: 'Six Bunks, Four Left', order: 1, content: 'A salvage crew wakes up from cryo two members short and no record of why.' },
+      { id: 'c2', title: 'The Ship Remembers More Than the Crew', order: 2, content: 'The logs were wiped, but the ship kept its own private backup.' },
+      { id: 'c3', title: 'Whoever Is Left Is Family Now', order: 3, content: 'By the time they reach a station, the four of them have stopped arguing about rank.' },
+    ],
+  },
+  {
+    id: 'a-quiet-kind-of-ruin',
+    title: 'A Quiet Kind of Ruin',
+    genre: 'Romance',
+    tags: ['second-chance', 'small-town', 'first-love'],
+    rating: 4.5,
+    chapters: [
+      { id: 'c1', title: 'The Wedding That Was Not Hers', order: 1, content: 'Alex comes back for a friend\'s wedding and finds their first love reading the toast.' },
+      { id: 'c2', title: 'Everything Said at Eighteen', order: 2, content: 'They finally say, at thirty-two, what neither of them said at eighteen.' },
+    ],
+  },
+];
