@@ -10,3 +10,5 @@ npm-debug.log*
 Thumbs.db
 temp/
 .trash/
+
+.vercel
